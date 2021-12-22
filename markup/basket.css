@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-basket {
+    padding-top: 53px;
+    background-color: #161516;
+    height: 100vh;
+}
+
+.basket-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.basket-list {
+    margin-top: 38px;
+    margin-bottom: 71px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.basket-item {
+    display: flex;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+    justify-content: space-between;
+}
+
+.basket-item__img {
+    width: 122px;
+    height: 122px;
+    margin-right: 98px;
+
+}
+
+.basket-item__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 216px;
+}
+
+.basket-item__basket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+    padding-top: 5px;
+}
+
+.basket-item__price-gramm {
+    margin-right: 15px;
+}
+
+.basket-item__icon-delete {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D58C51;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.basket-item__icon-delete::after {
+    content: "x";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;
+}
+
+.basket-item__icon-delete:hover {
+    color: #FFFFFF;
+}
+
+.basket-item__icon-delete:hover {
+    border: 1px solid #D58C51;
+    color: #FFFFFF;
+    background: #D58C51;
+}
+
+.basket-total {
+    background: #161516;
+    border-top: 1px solid #D58C51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.basket-total__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 385px;
+}
+
+.total-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.total-sum {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+}
+
+.total-order {
+    width: 200px;
+    height: 42px;
+    background: #D58C51;
+    color: #131313;
+    border: none;
+}
+
+.total-order:hover {
+    color: #FFFFFF;
+}

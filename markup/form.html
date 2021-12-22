@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../markup/form.css">
+    <title>Форма авторизации</title>
+</head>
+<body>
+    <div class="container-form">
+        <form class="form" method="post">
+            <h1 class="form__heading">вход</h1> <!---->
+            <div class="form__wrapper">
+                <label for="input-email" class="form__label form__label-email">E-mail</label>
+                <input type="email" name="e-mail" id="input-email" class="form__input form__input-email">
+                <span class="form__error form__email-error">Поле обязательно для заполнения</span>
+                <label for="input-password" class="form__label form__label-pass">Пароль</label>
+                <input type="password" name="pass" id="input-password" class="form__input form__input-pass">
+                <span class="form__error form__password-error">Поле обязательно для заполнения</span>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="inp_check" id="input-checkbox" class="form__input-checkbox" >
+                    <div class="form__checkbox-mark"></div>
+                    <label for="input-checkbox" class="form__checkbox-label">Я согласен получать обновления на почту</label>
+                </div>
+                <span class="form__error form__checkbox-error">Поле обязательно для заполнения</span>
+                
+            </div>
+            <button class="form__button">Войти</button>
+        </form>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.header__heading {
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding-top: 6px;
+    color: #fff;
+}
+
+.basket-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
